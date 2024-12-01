@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background: linear-gradient(-45deg, #000000, #62185b, #ae23d5, #c313e6);
+    animation: gradient 8s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+input{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 2px solid #53579c;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+
+#input-btn{
+background: hwb(247 11% 62%);
+border-radius: 3px;
+padding: 10px 20px;
+border: 2px solid;
+font-weight: bold;
+color: white;
+transition: 0.7s;
+}
+
+#delete-btn{
+    background: hwb(0 100% 0%);
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: 2px solid;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+
+}
+
+#tab-btn{
+    background: hwb(279 2% 42%);
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: 2px solid;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+    color: white;
+
+}
+
+#input-btn:hover {
+    background-color: #52ee76; /* Cor do botão ao passar o mouse */
+    transition: 0.7s;
+    color: #fff; /* Cor do texto */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave ao passar o mouse */
+}
+
+#delete-btn:hover {
+    background-color: #ee5252; /* Cor do botão ao passar o mouse */
+    transition: 0.7s;
+    color: #fff; /* Cor do texto */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave ao passar o mouse */
+    
+}
+
+#tab-btn:hover {
+    background-color: #52ee76; /* Cor do botão ao passar o mouse */
+    transition: 0.7s;
+    color: #fff; /* Cor do texto */
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave ao passar o mouse */
+}
+
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+
+
+}
+
+a{
+    color: #fffdff;
+
+}
