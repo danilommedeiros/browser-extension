@@ -49,7 +49,7 @@ function render(leads){
         listItems += 
         `
         <li> 
-        <a target='_blank' href='https://${leads[i]}'>${leads[i]}</a>
+        <a target='_blank' href='${leads[i]}'>${leads[i]}</a>
         </li>
         `
   }
